@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Topito</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutus_message">Topito is an app for finding all important places for people with special needs, you can find any place in egypt by searching in categories or typing its name and you will get all info you need about this place"</string>
+    <string name="menu_home">Topito</string>
+    <string name="menu_gallery">Search</string>
+    <string name="menu_slideshow">About Topito</string>
+    <string name="search">Search</string>
+    <string name="rateApp">Rate Us</string>
+    <string name="shareApp">Share</string>
+    <string name="contactUs">Contact Us</string>
+</resources>

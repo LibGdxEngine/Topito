@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "7578307559",
+    "project_id": "topito-a749c",
+    "storage_bucket": "topito-a749c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7578307559:android:cb241e36945de163218b42",
+        "android_client_info": {
+          "package_name": "com.devahmed.topito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7578307559-vjk3pjic649ghv350j77pt5oqo245s6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsBLHzGOPek8aZDxvp5aGsHGcSpVaSJPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7578307559-vjk3pjic649ghv350j77pt5oqo245s6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

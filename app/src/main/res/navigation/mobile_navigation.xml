@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.devahmed.topito.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_placeDetails"
+            app:destination="@id/placeDetails" />
+        <argument
+            android:name="Place"
+            app:argType="com.devahmed.topito.models.Place" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_search"
+            app:destination="@id/nav_search" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.devahmed.topito.ui.search.SearchFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_nav_search_to_placeDetails"
+            app:destination="@id/placeDetails" />
+        <argument
+            android:name="Place"
+            app:argType="com.devahmed.topito.models.Place" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.devahmed.topito.ui.aboutus.AboutUsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/placeDetails"
+        android:name="com.devahmed.topito.ui.placedetails.PlaceDetails"
+        android:label="Topito"
+        tools:layout="@layout/place_details_fragment" />
+</navigation>

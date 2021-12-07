@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/search" />
+
+        <item
+            android:id="@+id/RateApp"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="@string/rateApp" />
+
+        <item
+            android:id="@+id/shareApp"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/shareApp" />
+
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:title="@string/contactUs" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_slideshow" />
+    </group>
+</menu>
